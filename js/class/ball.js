@@ -5,8 +5,8 @@ export default class Ball {
     this.top = index * 50 + "px";
     let randomL = Math.random() * 10;
     let randomT = Math.random() * 10;
-    this.incrValueL = 1 * randomL;
-    this.incrValueT = 1 * randomT;
+    this.incrValueL = 1 + randomL;
+    this.incrValueT = 1 - randomT;
     this.index = index;
 
     //create and initialize balls
